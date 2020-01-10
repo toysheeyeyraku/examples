@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+    http://www.springframework.org/schema/beans/spring-beans.xsd 
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+     
+    <int-amqp:outbound-channel-adapter id="outboundAmqp"             
+                               channel="outboundChannel"         
+                               amqp-template="myAmqpTemplate"    
+                               exchange-name=""                  
+                               exchange-name-expression=""       
+                               order="1"                         
+                               routing-key=""                    
+                               routing-key-expression=""         
+                               default-delivery-mode""           
+                               confirm-correlation-expression="" 
+                               confirm-ack-channel=""            
+                               confirm-nack-channel=""           
+                               confirm-timeout=""                
+                               wait-for-confirm=""               
+                               return-channel=""                 
+                               error-message-strategy=""         
+                               header-mapper=""                  
+                               mapped-request-headers=""         
+                               lazy-connect="true" />
+     
+</beans> 

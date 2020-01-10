@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: kirpi
+Build-Jdk: 12
+Implementation-Title: boot-resource-server
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.javainuse
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/boot-resource-server
+Created-By: Maven Integration for Eclipse
+
